@@ -1,12 +1,22 @@
+:root {
+    font-family: sans-serif;
+    --primary-color: rgb(145, 3, 3);
+    --text-border: -1px -1px 0 #646464, 1px -1px 0 #646464, -1px 1px 0 #646464,  1px 1px 0 #646464;
+      
+      
+}
+
 body {
     font-size: 26px;
 }
 
+
+
 #general-wrapper {
     padding: 10px;
     border: 1px solid black;
-    height: 1654px;
-    width: 1240px;
+    height: 1604px;
+    width: 1200px;
 }
 
 
@@ -20,12 +30,40 @@ aside {
 
 }
 
-.img-container {
+aside .img-container {
     display: flex;
     width: 400px;
     height: 400px;
     transform: translateX(10%);
 }
+
+aside section {
+    padding-top: 30px;
+}
+
+aside section h2 {
+ color: var(--primary-color);
+ text-shadow: var(--text-border);
+ text-transform: uppercase;
+}
+
+aside section span{
+    padding-left: 30px;
+}
+
+
+
+#competenze-tecniche li {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
 /*MAIN*/
 main {
