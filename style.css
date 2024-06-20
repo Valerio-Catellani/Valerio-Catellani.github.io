@@ -2,8 +2,33 @@ body {
     font-size: 26px;
 }
 
-main {
+#general-wrapper {
+    padding: 10px;
     border: 1px solid black;
-    height: 1754px;
+    height: 1654px;
     width: 1240px;
+}
+
+
+/*ASIDE*/
+
+aside {
+    width: 380px;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 39%, rgba(214, 3, 3, 0.5) 100%);
+
+
+}
+
+.img-container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    transform: translateX(10%);
+}
+
+/*MAIN*/
+main {
+    width: calc(100% - 380px);
+    padding: 10px;
 }
