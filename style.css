@@ -15,6 +15,7 @@ body {
 aside {
     width: 380px;
     padding: 20px;
+    background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0) 39%, rgba(214, 3, 3, 0.5) 100%);
 
 
