@@ -55,7 +55,7 @@ aside .img-container {
 
 
 aside .img-container img {
-    width: 150%;
+    width: 100%;
     height: 150%;
     transform: translate(0%, -10%);
 }
