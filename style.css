@@ -7,15 +7,18 @@
 }
 
 body {
-    font-size: 26px;
+    font-size: 52px;
 }
 
 
 
 #general-wrapper {
     padding: 10px;
-    height: 1604px;
-    width: 1200px;
+    /* height: 1604px;
+    width: 1200px; */
+    border: 1px solid black;
+    height: 3508px;
+    width: 2480px;
 }
 
 h1,
